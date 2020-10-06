@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[2]:
-
+#Program to generate random passwords
 
 import random
 
@@ -16,9 +14,6 @@ length = 16
 
 password = "".join(random.sample(all,length))
 print (password)
-
-
-# In[ ]:
 
 
 
